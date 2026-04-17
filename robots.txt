@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+Sitemap: https://rebeca03007-del.github.io/TusDerechos/sitemap.xml
