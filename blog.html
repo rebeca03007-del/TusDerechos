@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog con artículos sobre derecho laboral, multas, alquiler y más. Respuestas claras a las preguntas legales reales de jóvenes en España.">
+    <meta name="keywords" content="blog legal España, derechos laborales, multas, alquiler, información jurídica">
+    <meta property="og:title" content="Blog - Derechos Simples">
+    <meta property="og:description" content="Artículos claros sobre tus derechos en España">
+    <title>Blog - Derechos Simples | Artículos sobre derecho en España</title>
+    <link rel="canonical" href="https://derechossimples.es/blog">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Aviso Legal -->
+    <div class="legal-banner">
+        <p>⚖️ <strong>Aviso legal:</strong> Esta web ofrece información general educativa. No es asesoramiento legal profesional. Consulta un abogado para tu caso específico.</p>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Derechos Simples</h1>
+                <p class="tagline">Entiende tus derechos sin tecnicismos</p>
+            </div>
+            <nav class="nav">
+                <a href="index.html">Inicio</a>
+                <a href="blog.html" class="active">Blog</a>
+                <a href="index.html#categories">Temas</a>
+                <a href="index.html#resources">Recursos</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Buscador y Filtros -->
+    <section class="blog-header">
+        <div class="container">
+            <h1>Todos los artículos</h1>
+            <p>Encuentra respuestas a tus preguntas legales</p>
+            
+            <div class="search-filter">
+                <input type="text" id="searchInput" placeholder="Busca un tema... (ej: despido, multa, alquiler)" class="search-input">
+                
+                <div class="filters">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="laboral">💼 Trabajo</button>
+                    <button class="filter-btn" data-filter="multas">🚗 Multas</button>
+                    <button class="filter-btn" data-filter="alquiler">🏠 Alquiler</button>
+                    <button class="filter-btn" data-filter="contratacion">📄 Contratación</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lista de Artículos -->
+    <section class="blog-articles">
+        <div class="container">
+            <div id="articles-list" class="articles-list">
+                <!-- Los artículos se cargarán aquí con JavaScript desde articles.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Derechos Simples</h4>
+                    <p>Información legal accesible para todos en España</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#" class="disabled">Aviso legal</a></li>
+                        <li><a href="#" class="disabled">Privacidad</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Derechos Simples. Información educativa sobre derecho en España.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
